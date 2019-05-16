@@ -9,9 +9,7 @@ cd ~/tmp
 
 git clone https://github.com/maverick9000/vim
 
-SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
-
-cp $SCRIPTPATH/vimrc ~/.vimrc
+cp ~/tmp/vim/vimrc ~/.vimrc
 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 echo 'run this inside vim => :PlugInstall'
