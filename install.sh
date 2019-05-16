@@ -15,4 +15,3 @@ cp $SCRIPTPATH/vimrc ~/.vimrc
 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 echo 'run this inside vim => :PlugInstall'
-rm -rf ~/tmp/vim
